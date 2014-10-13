@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <title>weather.css demo</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+            html, body { overflow: hidden; position: relative; margin: 0; padding: 0; }
+            .weather {
+                width: 50vw; height: 100vh;float: left;
+                background-size: cover;
+            }
+            .weather.rain {
+                background: url(http://cdn.minecraft.gallery/wp-content/uploads/2012/12/minecraft-moon-light.jpg) no-repeat center center;
+                right: 50%;
+            }
+            .weather.snow {
+                background: url(http://cdn.minecraft.gallery/wp-content/uploads/2012/11/winter-minecraft-wallpaper.jpg) no-repeat center center;
+                left: 50%;
+            }
+        </style>
+        <link rel="stylesheet" type="text/css" href="weather.min.css">
+    </head>
+    <body>
+        <div class="weather snow"></div>
+        <div class="weather rain"></div>
+    </body>
+</html>
