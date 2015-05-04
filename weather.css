@@ -6,7 +6,7 @@
  * Minecraft weather effects with pure CSS
  * © Copyright 2014 Moritz Marquardt
  *
-* https://github.com/moqmar/weather.css
+ * https://github.com/moqmar/weather.css
  *
  * Licensed under MIT License (http://opensource.org/licenses/MIT)
  */
@@ -20,6 +20,7 @@
     content: "";
     position: absolute; left: -50%; top: -50%; right: -50%; bottom: -50%;
     z-index: 1;
+    pointer-events: none;
     
     background: transparent repeat;
     opacity: 0.7;
